@@ -2,7 +2,7 @@ Simple Website that lets you search for movies and allows you to rate them and s
 
 To use this clone the repository Lor download the code.zip
 
-`git clone 'URL'`
+`git clone https://github.com/melvinprince/use-popcorn.git`
 
 to install packages and dependencies cd to project folder
  `npm i`
