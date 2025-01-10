@@ -6,7 +6,6 @@ import App from "./App.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    {/* <StarRating maxRating={8} defaultRating={5} /> */}
     <App />
   </StrictMode>
 );
