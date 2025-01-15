@@ -1,8 +1,21 @@
-# React + Vite
+Simple Website that lets you search for movies and allows you to rate them and save locally as wactched movies
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+To use this clone the repository Lor download the code.zip
 
-Currently, two official plugins are available:
+`git clone https://github.com/melvinprince/use-popcorn.git`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+to install packages and dependencies cd to project folder
+ `npm i`
+
+to run the project 
+ `npm run dev`
+
+ also create a KEY.js file and store the follwoing
+ 
+ ``` KEY = "your API key" ```
+ 
+``` export default KEY ```
+
+You can otain the api key for free from - https://www.omdbapi.com/apikey.aspx
+
+ 
