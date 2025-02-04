@@ -2,7 +2,7 @@ import { Loader, ErrorDisplayer } from "./Displayers";
 import { useKey } from "../Custom Hooks/useKey";
 import StarRating from "./StarRating";
 import { useState, useEffect, useRef } from "react";
-import KEY from "../KEY.js";
+// import KEY from "../KEY.js";
 
 export default function MovieDetails({
   selectedId,
@@ -66,7 +66,7 @@ export default function MovieDetails({
         try {
           setIsLoading(true);
           const res = await fetch(
-            `http://www.omdbapi.com/?apikey=${KEY}&i=${selectedId}`
+            `http://www.omdbapi.com/?apikey=e5084c71&i=${selectedId}`
           );
           const data = await res.json();
           if (data.Response === "False") throw new Error("Movie not found");
